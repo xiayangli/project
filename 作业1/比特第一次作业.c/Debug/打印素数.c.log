@@ -1,0 +1,14 @@
+﻿生成启动时间为 2019/4/9 19:48:31。
+     1>项目“C:\Users\李夏朗\Desktop\作业\比特第一次作业\比特第一次作业.c\打印素数.c.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Visual\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\李夏朗\Desktop\作业\比特第一次作业\比特第一次作业.c\Debug\打印素数.c.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\李夏朗\Desktop\作业\比特第一次作业\比特第一次作业.c\Debug\打印素数.c.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\李夏朗\Desktop\作业\比特第一次作业\比特第一次作业.c\Debug\打印素数.c.lib" /MACHINE:X86 "Debug\乘法口诀.obj"
+         "Debug\判断闰年.obj"
+         "Debug\输出素数.obj"
+     1>判断闰年.obj : error LNK2005: _main 已经在 乘法口诀.obj 中定义
+     1>输出素数.obj : error LNK2005: _main 已经在 乘法口诀.obj 中定义
+     1>C:\Users\李夏朗\Desktop\作业\比特第一次作业\比特第一次作业.c\Debug\打印素数.c.exe : fatal error LNK1169: 找到一个或多个多重定义的符号
+     1>已完成生成项目“C:\Users\李夏朗\Desktop\作业\比特第一次作业\比特第一次作业.c\打印素数.c.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.39
