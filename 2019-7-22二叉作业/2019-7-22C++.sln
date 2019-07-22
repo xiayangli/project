@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2019-7-22二叉作业", "2019-7-22C++\2019-7-22C++.vcxproj", "{F6078355-9C8C-4DA9-9BE8-A614298C40BF}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2019-07-14-二叉树", "C:\Users\李夏朗\Desktop\2019-07-14-二叉树\2019-07-14-二叉树\2019-07-14-二叉树.vcxproj", "{66E65473-DE67-4B1D-92CC-58798EB30DA5}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "2019-07-16-二叉树", "C:\Users\李夏朗\Desktop\2019-07-16-二叉树\2019-07-16-二叉树\2019-07-16-二叉树.vcxproj", "{61B14429-8EC1-47D9-814C-89D063B19DF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6078355-9C8C-4DA9-9BE8-A614298C40BF}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F6078355-9C8C-4DA9-9BE8-A614298C40BF}.Debug|Win32.Build.0 = Debug|Win32
+		{F6078355-9C8C-4DA9-9BE8-A614298C40BF}.Release|Win32.ActiveCfg = Release|Win32
+		{F6078355-9C8C-4DA9-9BE8-A614298C40BF}.Release|Win32.Build.0 = Release|Win32
+		{66E65473-DE67-4B1D-92CC-58798EB30DA5}.Debug|Win32.ActiveCfg = Debug|Win32
+		{66E65473-DE67-4B1D-92CC-58798EB30DA5}.Debug|Win32.Build.0 = Debug|Win32
+		{66E65473-DE67-4B1D-92CC-58798EB30DA5}.Release|Win32.ActiveCfg = Release|Win32
+		{66E65473-DE67-4B1D-92CC-58798EB30DA5}.Release|Win32.Build.0 = Release|Win32
+		{61B14429-8EC1-47D9-814C-89D063B19DF1}.Debug|Win32.ActiveCfg = Debug|Win32
+		{61B14429-8EC1-47D9-814C-89D063B19DF1}.Debug|Win32.Build.0 = Debug|Win32
+		{61B14429-8EC1-47D9-814C-89D063B19DF1}.Release|Win32.ActiveCfg = Release|Win32
+		{61B14429-8EC1-47D9-814C-89D063B19DF1}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
