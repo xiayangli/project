@@ -56,7 +56,7 @@ int main() {
 			WriteConsole(o, buffer[sy], 79, NULL, 0);
 		}
 		if (count <= 10){
-			printf("I Love You ！！！.Mua~\n");
+			printf(" ！！！.Mua~\n");
 			printf("             ");
 			count++;
 		}

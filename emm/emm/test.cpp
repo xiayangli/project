@@ -102,23 +102,133 @@ int main()
 	return 0;
 }*/
 
-class A
+//class A
+//{
+//public:
+//	void PrintA()
+//	{
+//		cout << _a << endl;
+//	}
+//	void Show()
+//	{
+//		cout << "Show()" << endl;
+//	}
+//private:
+//	int _a;
+//};
+//int main()
+//{
+//	Date* p = NULL;
+//	p->PrintA();
+//	p->Show();
+//}
+
+/*
+class Date
 {
 public:
-	void PrintA()
+	Date(int year = 1900, int month = 1, int day = 1);
+	Date(const Date& d);
+	Date& operator=(const Date& d);
+	Date operator+(int days);
+		Date operator-(int days);
+	int operator-(const Date& d);
+	Date& operator++();
+	Date operator++(int);
+	Date& operator--();
+	Date operator--(int);
+	bool operator>(const Date& d)const;
+	bool operator>=(const Date& d)const;
+	bool operator<(const Date& d)const;
+	bool operator<=(const Date& d)const;
+	bool operator==(const Date& d)const;
+	bool operator!=(const Date& d)const;
+private:
+	int _year;
+	int _month;
+	int _day;
+};
+*/
+
+/*
+typedef int SDataType;
+typedef struct Stack
+{
+	SDataType* array;
+	int capacity;
+	int top; // 标记栈顶位置 
+}Stack;
+
+// 初始化栈 
+void StackInit(Stack* ps)
+{
+	ps->capacity = 0;
+}
+
+//入栈
+void StackPush(Stack* ps, SDataType data)
+{
+	ps->array[ps->capacity++] = v;
+}
+
+//出栈
+void StackPop(Stack* ps)
+{
+	ps->capacity--;
+}
+
+//获取栈顶元素
+SDataType StackTop(Stack* ps)
+{
+	ps->top = ps->array[ps->capacity - 1];
+	return ps->top;
+}
+
+//获取栈中有效元素个数
+int StackSize(Stack* ps)
+{
+	return ps->capacity;
+}
+
+// 检测栈是否为空，如果为空返回非零结果，如果不为空返回0 
+int StackEmpty(Stack* ps)
+{
+	return !ps->capacity;
+}
+
+// 销毁栈 
+void StackDestroy(Stack* ps)
+{
+	ps->capacity;
+}
+*/
+
+#if 0
+// 默认构造函数
+class Date
+{
+public:
+	Date()
 	{
-		cout << _a << endl;
+		_year = 1900;
+		_month = 1;
+		_day = 1;
 	}
-	void Show()
+	Date(int year = 1900, int month = 1, int day = 1)
 	{
-		cout << "Show()" << endl;
+		_year = year;
+		_month = month;
+		_day = day;
 	}
 private:
-	int _a;
+	int _year;
+	int _month;
+	int _day;
 };
-int main()
+// 以下测试函数能通过编译吗？
+void Test()
 {
-	Date* p = NULL;
-	p->PrintA();
-	p->Show();
+	Date d1;
 }
+#endif
+
